@@ -2,10 +2,10 @@ import serial
 import pickle
 
 # Load the model
-with open("crop_model.pkl", "rb") as f:
+with open("models/crop_model.pkl", "rb") as f:
     model, label_encoder = pickle.load(f)
 
-# Open serial port (replace 'COM3' with your port, or '/dev/ttyUSB0' on Linux)
+# Open serial port (replace 'COM10' with your port, or '/dev/ttyUSB0' on Linux)
 ser = serial.Serial('COM10', 9600, timeout=2)
 
 while True:

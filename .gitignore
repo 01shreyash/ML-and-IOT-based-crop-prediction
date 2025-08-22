@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode (keep configs we track)
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Arduino build artifacts
+build/
+*.hex
+*.elf
+
+# ML artifacts
+*.h5
+*.joblib
