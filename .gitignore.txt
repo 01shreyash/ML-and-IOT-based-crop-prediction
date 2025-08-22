@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# VSCode local junk (we *do* keep the JSONs we added)
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Arduino build artifacts
+build/
+*.hex
+*.elf
